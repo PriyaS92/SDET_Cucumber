@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="42.303" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Shopping Portal Testing" name="Add and Remove products from the cart" time="42.017">
+<system-out><![CDATA[
+Given I want to login to the shopping portal................................passed
+When I add the product to cart..............................................passed
+Then would like to view the product in cart.................................passed
+And I want to remove the item from the cart.................................passed
+]]></system-out>
+</testcase>
+</testsuite>
