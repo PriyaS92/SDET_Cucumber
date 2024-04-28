@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 tags="@shopping",monochrome=true,
 plugin = {
 		"pretty",
-		"html:target/cucumber-reports/cucumber-pretty",
+		"html:target/cucumber-reports/cucumber-pretty.html",
 		"json:target/cucumber-reports/CucumberTestReport.json",
 		"junit:target/cucumber-reports/CucumberJunitReport.xml"
 })
