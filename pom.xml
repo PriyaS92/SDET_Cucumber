@@ -10,8 +10,6 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 		<cucumber.version>7.17.0</cucumber.version>
-		<sourceDirectory>src/main/java</sourceDirectory>
-		<testSourceDirectory>src/test/java</testSourceDirectory>
   </properties>
   <dependencies>
   	 <dependency>
@@ -113,8 +111,17 @@
 	    <scope>test</scope>
 	</dependency>
 	
+	<dependency>
+	  <groupId>junit</groupId>     <!-- NOT org.junit here -->
+	  <artifactId>junit-dep</artifactId>
+	  <version>4.8.2</version>
+	  <scope>test</scope>
+	</dependency>
+
   </dependencies>
   <build>
+  		<sourceDirectory>src/main/java</sourceDirectory>
+		<testSourceDirectory>src/test/java</testSourceDirectory>
 		<plugins>
 			<plugin>
 	            <groupId>org.apache.maven.plugins</groupId>
