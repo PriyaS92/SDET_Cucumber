@@ -88,12 +88,6 @@
 	</dependency>
 	
 	<dependency>
-        <groupId>org.junit.platform</groupId>
-        <artifactId>junit-platform-suite-engine</artifactId>
-        <version>1.9.1</version>
-    </dependency>
-	
-	<dependency>
 	    <groupId>org.junit.jupiter</groupId>
 	    <artifactId>junit-jupiter-api</artifactId>
 	    <version>5.10.2</version>
