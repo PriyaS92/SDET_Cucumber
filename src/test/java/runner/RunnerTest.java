@@ -1,5 +1,6 @@
 package runner;
 
+
 import org.junit.runner.RunWith;
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -11,7 +12,7 @@ plugin = {
 		"pretty",
 		"html:target/cucumber-reports/cucumber-pretty",
 		"json:target/cucumber-reports/CucumberTestReport.json",
-		"junit:target/cucumber-reports/CucumberJunitReport"
+		"junit:target/cucumber-reports/CucumberJunitReport.xml"
 })
 public class RunnerTest{
 }
