@@ -2,8 +2,8 @@ package pages;
 
 import java.util.concurrent.TimeUnit;
 
+import org.junit.Assert;
 import org.openqa.selenium.By;
-import org.testng.Assert;
 
 import functionlibrary.CommonFunctions;
 
@@ -31,6 +31,6 @@ public class Shoppingpage extends CommonFunctions{
 	public void remove_products() throws InterruptedException {
 		CommonFunctions.driver.findElement(By.xpath("//a[@class='cart_quantity_delete']")).click();
 		TimeUnit.SECONDS.sleep(5);
-		CommonFunctions.driver.quit();
+		CommonFunctions.driver.close();
 	}
 }
