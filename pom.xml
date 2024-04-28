@@ -65,8 +65,7 @@
     	<groupId>junit</groupId>
     	<artifactId>junit</artifactId>
     	<version>4.13.2</version>
-    	<scope>test</scope>
-	</dependency>
+    </dependency>
 	
 	<dependency>
     	<groupId>io.cucumber</groupId>
@@ -93,7 +92,6 @@
 	    <groupId>org.junit.jupiter</groupId>
 	    <artifactId>junit-jupiter-engine</artifactId>
 	    <version>5.10.2</version>
-	    <scope>test</scope>
 	</dependency>
 	
 	
@@ -101,14 +99,12 @@
         <groupId>org.junit.platform</groupId>
         <artifactId>junit-platform-suite-engine</artifactId>
         <version>1.9.1</version>
-        <scope>test</scope>
     </dependency>
 	
 	<dependency>
 	    <groupId>org.junit.jupiter</groupId>
 	    <artifactId>junit-jupiter-api</artifactId>
 	    <version>5.10.2</version>
-	    <scope>test</scope>
 	</dependency>
 	
 	<dependency>
